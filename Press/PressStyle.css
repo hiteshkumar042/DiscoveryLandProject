@@ -1,0 +1,166 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.background-container {
+  background-image: url(./PressSRC/header\ background.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.logo-nav {
+  padding-top: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+
+nav > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+nav > a:hover {
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.center-heading h1 {
+  padding-left: 25rem;
+  font-size: 4.5rem;
+  margin-top: 14rem;
+  color: white;
+  font-weight: light;
+}
+
+.main-section {
+  background-color: #f2f3f2;
+}
+.main-section h2 {
+  padding: 5rem 0 0 8rem;
+}
+
+/*curosal */
+.carousel {
+  height: 120vh;
+  object-fit: contain;
+  margin: 6rem 6rem 1rem 6rem;
+  background-color: #f2f3f2;
+  width: 60%;
+}
+img,
+.carousel-item,
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+.controls {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.controls button {
+  margin: 0 1rem 0 1rem;
+  border: none;
+  background: none;
+}
+
+.news-box{
+  display: flex;
+  flex-direction:column;
+  width: 35%;
+  position: absolute;
+  top: 135vh;
+  right: 10vh;
+  height: 100%;
+  background-color: white;
+  padding: 5rem;
+}
+
+.news-text{
+  text-align: left;
+}
+.news-heading{
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.news-para{
+  margin-top: 2rem;
+  text-align: left;
+  margin: 4rem 2rem 2rem 0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+#news-btn{
+  position: absolute;
+  top: 42rem;
+  left: 14rem;
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+/* footer */
+.footer-container {
+  display: flex;
+  background-color: #161e1f;
+  justify-content: space-between;
+  padding-top: 5rem;
+  height: 50vh;
+}
+.footer-right-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  width: 60%;
+}
+
+.footer-left-container {
+  width: 20%;
+}
+
+
+.text-grey {
+  color: grey;
+  text-transform: uppercase;
+}
+.text-email {
+  text-decoration: underline;
+}
+
+.text-footer {
+  color: white;
+  font-size: 1.2rem;
+  font-family: Molengo;
+  line-height: 1.1;
+  padding: 1rem;
+}
+
+.footer-left-container img {
+  width: 25%;
+  height: 25%;
+  margin: 2rem;
+  border-radius: 100px;
+}
+.copyright {
+  background-color: #161e1f;
+  margin: 0px;
+  padding: 3rem;
+  color: white;
+  text-align: left;
+  font-size: large;
+}
