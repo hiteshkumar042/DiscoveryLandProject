@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F3F3F3;
+}
+
+.logo{
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+}
+.navbar{
+    position:absolute;
+    top: 5rem;
+    right:5rem;
+}
+.nav-link{
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+video{
+object-fit: cover;
+height: 100vh;
+width: 100%;
+opacity: 0.9;
+}
+
+.center-text{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 2.5rem;
+color: aliceblue;
+font-weight: lighter;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-container{
+    background-image: url(./VideSrc/background-white.jpg);
+    height: 130vh;
+    background-size: cover;
+}
+
+.article{
+    width: 30vw;
+    height: 60vh;
+    margin: 12rem;
+    padding-top: 2rem ;
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 2.4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.image1 img{
+    width: 30%;
+    height: 90vh;
+    position: absolute;
+    top: 70rem;
+    left: 60%;
+}
+
+.image2 img{
+    width: 35vw;
+    height: 40vh;
+    position: absolute;
+    left: 12rem;
+    top: 100rem;
+}
+
+/* footer */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    padding: 4rem;
+    background-color: #161e1f;
+}
+
+.footer-left-container img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 3rem;
+}
+.footer-right-container{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.copyright {
+    background-color: #161e1f;
+    margin: 0px;
+    padding: 3rem;
+    color: white;
+    text-align: left;
+    font-size: large;
+  }
+  
+  .text-grey {
+    color: grey;
+    text-transform: uppercase;
+  }
+  .text-email {
+    text-decoration: underline;
+  }
+  
+.text-footer {
+    color: white;
+    font-size: 1.2rem;
+    font-family: Molengo;
+    line-height: 1.1;
+  }
+  
+  /* land disc center */
+  .land-disc{
+    height: 30vh;
+    padding: 1% 11%;
+    background-color: #F3F3F3;
+  }
+
+  .heading-land-disc{
+    font-family: sans-serif;
+    font-size: 2rem;
+  }
+
+  .para-land-disc{
+    font-family: cursive;
+    font-size: 1.2rem;
+  }
+  /* glob icon and curosel */
+  .glob_curosel{
+    background-image: url(./VideSrc/globphoto.png);
+    background-size: 160%;
+    height: 130vh;
+    width: 55vw;
+    background-position:-20rem;
+}
+.white-box{
+    display: flex;
+    position: absolute;
+    top: 310%;
+    left: 45%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.photos, .photos img{
+width: 24rem;
+height: 40rem;
+}
+
+/* jhjhjhj */
+.weather-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+.title{
+    font-size: 1.2rem;
+
+}
+.desc{
+    font-size: 2rem;
+
+}
+.data{
+    width: 20rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color:darkgrey
+
+}
+.latitude{
+    padding: 1.2rem 0 ;
+    font-size: 1.3rem;
+
+}
