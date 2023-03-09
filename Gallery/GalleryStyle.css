@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.background-container {
+  background: url(../homesrc/golf-background.png);
+  height: 65vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  width: 90vw;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav > a {
+  margin: 1rem;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.4rem;
+  font-family: "Francois One";
+}
+
+.gallery-name {
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5rem;
+  padding: 2.2rem 10rem;
+  font-weight: lighter;
+}
+.card-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+}
+
+.card {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  padding: 2rem 0rem;
+  font-weight: lighter;
+}
+
+.footer-container {
+  display: flex;
+  background-color: #161e1f;
+  justify-content: space-between;
+  max-height: 56vh;
+}
+.footer-right-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  width: 60%;
+}
+
+.footer-left-container {
+  width: 20%;
+}
+
+.first-footer-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.second-footer-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+.third-footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-grey {
+  color: grey;
+  text-transform: uppercase;
+}
+.text-email {
+  text-decoration: underline;
+}
+
+.text-footer {
+  color: white;
+  font-size: 1.2rem;
+  font-family: Molengo;
+  line-height: 1.1;
+}
+
+.footer-left-container img {
+  width: 4vw;
+  border-radius: 100px;
+  margin: 6rem 6rem;
+}
+.copyright {
+  background-color: #161e1f;
+  margin: 0px;
+  padding: 3rem;
+  color: white;
+  text-align: left;
+  font-size: large;
+}
